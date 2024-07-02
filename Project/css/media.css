@@ -1,0 +1,51 @@
+@media (max-width: 800px){
+
+    .hd1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo{
+      flex-grow: 0;
+    }
+    .block_text{
+        gap: 0px 40px;
+    }
+    .main_page{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .image1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      left: 0px;
+    }
+    .main_text{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: sticky;
+      font-size: 50px;
+    }
+    .EOA_header{
+      font-size: 50%;
+    }
+    .next_menu{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+    }
+    .OrderYou{
+      position: relative;
+      padding-inline: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+    .assessment_people{
+      flex-direction: column;
+    }
+  }

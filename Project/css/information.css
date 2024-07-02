@@ -1,0 +1,145 @@
+.information {
+    position: absolute;
+    top: 3859.27px;
+    height: 679.91px;
+    width: 1239.76px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:90px;
+}
+
+.ACA {
+    width: 1190.76px;
+    height: 360px;
+    display: flex;
+    gap: 267px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+.CA{
+    height: 100%;
+    display: flex; 
+    flex-direction:column; 
+    gap:30px;
+    justify-content: space-around;
+}
+.WMOC {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.WMOC_text {
+    width: 558px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 40px;
+    color: #64646A;
+
+}
+.email,
+.number{
+    display: flex; 
+    align-items: center; 
+    gap:24px
+}
+.logo_email,
+.logo_number,
+.facebook,
+.inst,
+.twitter,
+.linkedin{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border: 0;
+    cursor: pointer;
+}
+.logo_email:active,
+.logo_number:active,
+.facebook:active,
+.inst:active,
+.twitter:active,
+.linkedin:active{
+    background: #EEEFF1;
+}
+.email_text,
+.number_text{
+    font-size: 30px; 
+    font-weight: 200; 
+    font-style: normal; 
+    font-family: 'Jost';
+    color:#64646A;
+}
+.social{
+    display: flex;
+    gap:24px;
+    justify-content: flex-start;
+}
+.SLFOOU{
+    width: 1237.65px;
+    height: 275px;
+    display: flex;
+    gap: 275px;
+}
+.SL{
+    display: flex;
+    flex-direction: column;
+}
+.SL_text{
+    width: 558px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #64646A;
+
+
+}
+.FMA{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FMA_text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1B1B1D;
+    cursor: pointer;
+}
+.enter_email{
+    
+    width: 413px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border-radius: 65px;
+    display: flex;
+    align-items: center;
+}
+.text_enter_email{
+    font-size: 22px; 
+    font-weight: 200; 
+    font-style: normal; 
+    font-family: 'Jost';
+    color:#64646A;
+    padding-left: 30px;
+
+}

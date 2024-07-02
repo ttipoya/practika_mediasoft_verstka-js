@@ -1,0 +1,153 @@
+.WOCS {
+    position: absolute;
+    top: 2731.27px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1240px;
+    gap: 100px;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.WOCS_text {
+    width: 454px;
+    height: 140px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    color: #1B1B1D;
+
+}
+
+.WOCS_rec_text {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 300px;
+    height: 60px;
+
+}
+
+.with_star {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 211px;
+    height: 60px;
+}
+
+.rec_star {
+
+    width: 211px;
+    height: 28px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 28px;
+    color: #64646A;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding-inline: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+  }
+
+.swiper-slide{
+    width: 499.18px !important;
+    box-shadow: 13px 35px 100px -47px rgba(34, 60, 80, 0.2);
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 30px 60px rgba(163, 168, 179, 0.15));
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap:30px;
+
+}
+
+
+.mask_one{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.woman1 img,
+.woman2 img{
+    height: 100%;
+    width: 100%;
+    mask-image: url(#mask0_38_110);
+}
+.BS,
+.IW{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.BS_asses,
+.IW_asses{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.BS_text,
+.IW_text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1B1B1D;
+}
+.BS_main_text,
+.IW_main_text{
+    width: 387px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B1B1D;
+}
+.scroll_button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border: 0;
+    cursor: pointer;
+}
+.scroll_button:active{
+    background: #EEEFF1;
+}

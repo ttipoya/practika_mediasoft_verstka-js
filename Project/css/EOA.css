@@ -1,0 +1,128 @@
+.EOA_header{
+    position: absolute;
+    width: 100%;
+    max-width: 1240px;
+    top: 1186px;
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+}
+.main_text_next{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 700.87px;
+
+
+}
+.EOA_text{
+width: 702px;
+height: 70px;
+
+font-weight: 500;
+font-size: 64px;
+line-height: 70px;
+text-align: center;
+
+color: #1B1B1D;
+margin: 0,0,0;
+
+}
+.add_text_next{
+    position: relative;
+width: 600px;
+font-weight: 200;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+color: #64646A;
+}
+.next_menu{
+    position: absolute;
+    top: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.first,
+.second,
+.thrid {
+    box-shadow: 13px 35px 100px -47px rgba(34, 60, 80, 0.2);
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 30px 60px rgba(163, 168, 179, 0.15));
+    width: 394px;
+    height: 540px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.text_block_next{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 316.55px;
+    top: 40px;
+
+
+}
+.OUTFTG{
+    width: 214px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: #1B1B1D;
+}
+.AOL{
+    width: 316px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 35px;
+    color: #64646A;
+}
+.icon{
+    position: absolute;
+    width: 150.38px;
+    height: 150px;
+    top: 230px;
+
+
+}
+.next_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 225.39px;
+    height: 60px;
+    top: 440px;
+    background: #1B1B1D;
+    border-radius: 126px;
+    cursor: pointer;
+}
+.butt_text_next{
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.end_part {
+    position: absolute;
+    top: 4619.18px;
+    width: 1240px;
+    height: 70px;
+    display: flex;
+}
+
+.CAD {
+    position: absolute;
+    width: 377.83px;
+    height: 30px;
+    top: 40px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+    color: #64646A;
+}
+
+.ToUPP {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 277.45px;
+    height: 30px;
+    left: 1000px;
+    top: 40px;
+
+}
+
+.ToU {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+    color: #64646A;
+}

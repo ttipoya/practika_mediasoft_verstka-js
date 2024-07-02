@@ -1,0 +1,125 @@
+.OrderYou {
+    position: absolute;
+    width: 1233px;
+    height: 471.27px;
+    top: 2120px;
+    display: flex;
+    align-self: center;
+    gap: 40px;
+}
+
+.cup {
+    display: flex;
+    justify-content: center;
+}
+
+.elips1 {
+
+    position: absolute;
+    width: 207.99px;
+    height: 28.06px;
+    top: 371.4px;
+    left: 390px;
+    background: radial-gradient(50% 50% at 56.71% 50%, rgba(8, 11, 10, 0.62) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(5px);
+
+}
+
+.elips2 {
+    position: absolute;
+    width: 354.01px;
+    height: 44.57px;
+    top: 401.94px;
+    background: radial-gradient(50% 50% at 56.71% 50%, rgba(8, 11, 10, 0.62) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(5px);
+    display: flex;
+    justify-content: center;
+
+}
+
+.elips3 {
+    position: absolute;
+    width: 207.99px;
+    height: 28.06px;
+    left: 124.62px;
+    top: 361.4px;
+
+    background: radial-gradient(50% 50% at 56.71% 50%, rgba(8, 11, 10, 0.62) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(5px);
+
+}
+
+.main_cup {
+    width: 513px;
+    height: 440px;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.image_cup {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text_cup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+}
+
+.OYFC {
+    width: 512px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1B1D;
+}
+
+.Aa {
+    width: 512px;
+    height: 140px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 35px;
+    color: #64646A;
+
+}
+
+.button_OD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 191px;
+    height: 70px;
+    background: #1B1B1D;
+    border-radius: 126px;
+    cursor: pointer;
+}
+
+.text_OD {
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
