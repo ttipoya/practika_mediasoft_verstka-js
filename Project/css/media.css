@@ -1,6 +1,5 @@
 @media (max-width: 800px) {
 
-
   .first_page {
     display: flex;
     flex-direction: column;
@@ -13,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
   }
 
   .logo {
@@ -27,13 +27,14 @@
     position: relative;
     left: 0;
     height: auto;
-
+    flex-direction: column;
   }
 
   .first_block {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
   }
 
   .main_text,
@@ -64,13 +65,37 @@
   }
 
   .photo {
-    scale: 0.5;
-    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
   }
 
   .image1 {
+    position: absolute;
     left: 0;
-    width: 100%;
+    top:0;
+    object-fit: cover;
+    width: 0px;
+    height: 100px;
+  }
+
+  .mask {
+    display: none;
+  }
+
+  .image2 {
+    position: relative;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+  }
+
+  .rec {
+    position: relative;
+    left: 0;
+    top: 0;
   }
 
   .EOA_header {
@@ -80,6 +105,19 @@
   .main_text_next {
     width: 100%;
     gap: 30px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .text_block_next{
+    width: 100%;
+    align-items: center;
+  }
+  .OUTFTG{
+    text-align: center;
+  }
+  .AOL{
+    text-align: center;
   }
 
   .next_menu {
@@ -123,7 +161,7 @@
   .Aa {
     font-size: 20px;
     text-align: center;
-    width: 75%;
+    width: 70%;
     height: auto;
   }
 
@@ -139,7 +177,7 @@
     font-size: 40px;
     line-height: 50px;
     text-align: center;
-    width: 30%;
+    width: 50%;
     height: auto;
   }
 
@@ -147,37 +185,43 @@
     justify-content: flex-start;
     gap: 0px;
   }
+
   .first_asses,
-  .second_asses{
-    width: 50%; 
+  .second_asses {
+    width: 50%;
     height: 50%;
 
   }
+
   .BS,
-  .IW{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 32px;
+  .IW {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
   }
+
   .BS_asses,
   .IW_asses {
     align-items: center;
   }
+
   .BS_text,
-  .IW_text{
-      font-size: 25px;
-      line-height: 30px;
-      text-align: center;
-      color: #1B1B1D;
+  .IW_text {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #1B1B1D;
   }
+
   .BS_main_text,
-  .IW_main_text{
+  .IW_main_text {
     width: 70%;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-}
+  }
+
   .information {
     position: relative;
     display: flex;
@@ -195,6 +239,7 @@
     flex-wrap: nowrap;
     align-items: center;
     gap: 26px;
+    scale: 0.9;
   }
 
   .WMOC,
@@ -231,5 +276,5 @@
 
   .swiper-wrapper {
     width: 499.56px !important;
-  } 
+  }
 }
