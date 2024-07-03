@@ -1,4 +1,4 @@
-.EOA_header{
+.EOA_header {
     position: absolute;
     width: 100%;
     max-width: 1240px;
@@ -7,42 +7,46 @@
     justify-content: center;
     padding-inline: 100px;
 }
-.main_text_next{
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
+.main_text_next {
 
-position: absolute;
-width: 700.87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
 
+    position: absolute;
+    max-width: 700.87px;
 
-}
-.EOA_text{
-width: 702px;
-height: 70px;
-
-font-weight: 500;
-font-size: 64px;
-line-height: 70px;
-text-align: center;
-
-color: #1B1B1D;
-margin: 0,0,0;
 
 }
-.add_text_next{
+
+.EOA_text {
+    width: 702px;
+    height: 70px;
+
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #1B1B1D;
+    margin: 0, 0, 0;
+
+}
+
+.add_text_next {
     position: relative;
-width: 600px;
-font-weight: 200;
-font-size: 24px;
-line-height: 35px;
-text-align: center;
-color: #64646A;
+    width: 600px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #64646A;
 }
-.next_menu{
+
+.next_menu {
     position: absolute;
     top: 1440px;
     display: flex;
@@ -68,7 +72,7 @@ color: #64646A;
 
 }
 
-.text_block_next{
+.text_block_next {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -80,21 +84,24 @@ color: #64646A;
 
 
 }
-.OUTFTG{
+
+.OUTFTG {
     width: 214px;
     font-weight: 400;
     font-size: 36px;
     line-height: 52px;
     color: #1B1B1D;
 }
-.AOL{
+
+.AOL {
     width: 316px;
     font-weight: 100;
     font-size: 24px;
     line-height: 35px;
     color: #64646A;
 }
-.icon{
+
+.icon {
     position: absolute;
     width: 150.38px;
     height: 150px;
@@ -102,7 +109,8 @@ color: #64646A;
 
 
 }
-.next_button{
+
+.next_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +123,8 @@ color: #64646A;
     border-radius: 126px;
     cursor: pointer;
 }
-.butt_text_next{
+
+.butt_text_next {
     position: absolute;
     font-family: 'Jost';
     font-style: normal;

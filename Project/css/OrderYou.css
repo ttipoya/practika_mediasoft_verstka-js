@@ -43,7 +43,7 @@
     position: absolute;
     width: 207.99px;
     height: 28.06px;
-    left: 124.62px;
+    left: 12.62px;
     top: 361.4px;
 
     background: radial-gradient(50% 50% at 56.71% 50%, rgba(8, 11, 10, 0.62) 0%, rgba(255, 255, 255, 0) 100%);
@@ -54,7 +54,6 @@
 
 .main_cup {
     width: 513px;
-    height: 440px;
     display: flex;
     align-self: center;
     justify-content: flex-start;
@@ -88,7 +87,6 @@
 
 .Aa {
     width: 512px;
-    height: 140px;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 200;

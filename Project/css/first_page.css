@@ -21,11 +21,10 @@ body{
   position: relative;
   width: 100%;
   max-width: 1240px;
-  padding-inline: 100px;
+  padding-inline: 15px;
   height: 56px;
   font-size: 15px;
   top: 24px;
-  left: 100;
   margin: 0 auto;
 }
 .hd1 {
@@ -100,7 +99,8 @@ body{
 /* <-----------------------------Основная страница----------------------------> */
 .main_page{
   position: absolute;
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   height: 712px;
   top: 204px;
   margin: 0, auto;
@@ -162,23 +162,21 @@ body{
 }
 .main_text{
   position: relative;
-  width: 597px;
-  height: 420px;
+  max-width: 597px;
   font-weight: 700;
   font-size: 124px;
   line-height: 140px;
   color: #1B1B1D;
 }
 .add_text{
-  width: 530px;
-  height: 70px;
+  max-width: 530px;
   font-weight: 200;
   font-size: 24px;
   line-height: 35px;
   color: #64646A;
 }
 .first_block{
-  width: 626px;
+  max-width: 626px;
   height: 650px;
   position: relative;
 }

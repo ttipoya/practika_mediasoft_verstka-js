@@ -2,14 +2,14 @@
     position: absolute;
     top: 3859.27px;
     height: 679.91px;
-    width: 1239.76px;
+    max-width: 1239.76px;
     display: flex;
     flex-wrap: wrap;
     gap:90px;
 }
 
 .ACA {
-    width: 1190.76px;
+    max-width: 1190.76px;
     height: 360px;
     display: flex;
     gap: 267px;
