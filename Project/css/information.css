@@ -7,7 +7,9 @@
     flex-wrap: wrap;
     gap:90px;
 }
-
+a{
+    text-decoration: none
+}
 .ACA {
     max-width: 1190.76px;
     height: 360px;
@@ -134,12 +136,19 @@
     display: flex;
     align-items: center;
 }
-.text_enter_email{
+.input_email{
+    width: 413px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 65px;
+    display: flex;
+    align-items: center;
     font-size: 22px; 
     font-weight: 200; 
     font-style: normal; 
     font-family: 'Jost';
     color:#64646A;
     padding-left: 30px;
+    border: 0;
 
 }

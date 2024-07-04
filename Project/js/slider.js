@@ -1,6 +1,5 @@
 const width = document.querySelector('.first_page')
 const par = width.offsetWidth;
-console.log(par);
 if (par > 800){
   const cardsSwiper = new Swiper(".js-swiper", {
     loop: true,
